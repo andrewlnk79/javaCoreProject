@@ -13,6 +13,7 @@ public class WeatherResponse {
             dailyForecasts[forecast] = dailyForecast;
         }
     }
+
     public DailyForecast[] getDailyForecasts() {
         return dailyForecasts;
     }
@@ -28,4 +29,5 @@ public class WeatherResponse {
         }
 
         return stringBuilder.toString();
+    }
 }
